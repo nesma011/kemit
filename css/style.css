@@ -1,0 +1,223 @@
+/*navbar*/
+nav div.collapse ul.navbar-nav a.nav-link:hover
+{
+   color: rgb(187, 4, 35);
+}
+
+nav div.collapse ul.navbar-nav a.active
+{
+    color: rgb(187, 4, 35);
+}
+
+/*section home */
+div.home
+{
+    background-image: url(../images/header-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.layer h1::after {
+    content: " |";
+    animation: typing 3s linear 1s infinite alternate;
+}
+
+@keyframes typing {
+    0% {
+        content: " G|";
+    }
+
+    6% {
+        content: " Gr|";
+    }
+
+    12% {
+        content: " Gra|";
+    }
+
+    18% {
+        content: " Grap|";
+    }
+
+    24% {
+        content: " Graph|";
+    }
+
+    30% {
+        content: " Graphi|";
+    }
+
+    36% {
+        content: " Graphic|";
+    }
+
+    42% {
+        content: " Graphic |";
+    }
+
+    48% {
+        content: " Graphic De|";
+    }
+
+    56% {
+        content: " Graphic Des|";
+    }
+
+    72% {
+        content: " Graphic Desi|";
+    }
+
+    78% {
+        content: " Graphic Desig|";
+    }
+
+    84% {
+        content: " Graphic Design|";
+    }
+
+    90% {
+        content: " Graphic Designe|";
+    }
+
+    100% {
+        content: " Graphic Designer|";
+    }
+}
+div.home div.layer button
+{
+    transition: all 1s ;
+}
+
+ div.home div.layer button:hover
+{
+background-color: white !important;
+color: black !important;
+}
+div.home div.layer div.set
+{
+   
+    top: 30%;
+    background-color: #2b2424;
+}
+
+
+/*about section*/
+section.about span
+{
+      color: rgb(187, 4, 35) ;
+}
+
+section.about .icons i
+{
+  padding: 10px;
+  font-size: x-large;
+  transition: all 0.5s ;
+}
+section.about .icons i:hover
+{
+    border: 2px rgb(187, 4, 35)  solid;
+    border-radius: 50%;
+    color: rgb(187, 4, 35) ;
+
+}
+
+/*section services*/
+
+section#services i
+{
+    color: rgb(187, 4, 35) ;
+
+}
+section#services h3
+{
+    position:relative ;
+}
+
+section#services .col-md-4 h3::before
+{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+   text-align: center;
+    width: 50px;
+    height: 3px;
+    background-color: rgb(187, 4, 35)  ;
+    transform: translateX(-50%);
+    transition: all 0.5s ;
+}
+
+section#services .col-md-4:hover h3::before
+{
+    width: 70px;
+}
+
+/*section clients*/
+section#client i
+{
+   
+    color: rgb(187, 4, 35) ;
+
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: #e65f78;
+    width: 12px;
+    height: 4px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+}
+
+.carousel-indicators .active {
+    width: 20px;
+}
+
+
+/*section PORTFOLIO*/
+div.portfolio ul li button
+{
+    border-radius: 100px !important;
+    
+}
+
+div.portfolio ul li button.active
+{
+    background-color: rgb(187, 4, 35) !important ;
+    color: white !important;
+    
+}
+div.portfolio div.contain
+{
+    transition :all 0.5s;
+}
+div.portfolio div.contain:hover div.lay
+{
+    background-color: rgba(0, 0, 0, 0.63);
+}
+div.portfolio div.contain div.content-layer
+{
+    transition : all 1s;
+}
+div.portfolio div.contain:hover div.content-layer
+{
+    top: 0 !important;
+
+    
+}
+
+
+
+/*section blog*/
+section#blog span
+{
+    color:  rgb(187, 4, 35);
+}
+
+
+/*footer*/
+
+footer i:hover
+{
+    color:  rgb(187, 4, 35);
+
+}
